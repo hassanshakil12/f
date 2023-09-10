@@ -1,18 +1,29 @@
 .header{
-    background-color: rgb(96, 150, 221);
     width: 100%;
-    position: relative;
-    padding: 1% 4%;
+    background-color: rgb(60, 255, 200);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-family: "General Sans Regular";
+    padding: 0.5% 4%;
 }
 
-.menu{
+.left h1{
+    cursor: pointer;
+}
+
+.right{
+    font-size: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 70px;
-    font-weight: 100;
+    gap: 40px;
+}
+
+.right h4{
+    cursor: pointer;
+}
+
+.header a{
+    text-decoration: none;
+    color: black;
 }

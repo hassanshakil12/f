@@ -1,12 +1,13 @@
 'use client'
 import react from 'react'
-import Header from '@/components/Header'
+import Header from '@/Components/Header'
 
 const page = () =>{
   return(
     <>
-      <Header/>
-      <h1>Hello World</h1>
+      <Header />
+      <h1>This is Home page</h1>
+      <a href='./contact'>Contact</a>
     </>
   )
 }
